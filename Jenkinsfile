@@ -10,7 +10,7 @@ pipeline {
       stage('checkout') {
            steps {
              
-                git branch: 'master', url: 'https://github.com/AkashHadge/CI-usingAnsible.git'
+                git branch: 'master', url: 'https://hclgitlab.vinsys.live/akashhadge30/hcl-blb-project2'
              
           }
         }
